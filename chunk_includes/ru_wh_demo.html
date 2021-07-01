@@ -1,0 +1,137 @@
+﻿<div style="width: 60em;">
+
+<p>
+Моля, попълнете следната анкета и натиснете бутона най-долу, за да започнете експеримента.
+</p> 
+  
+<table>
+<tr>
+	<td>Възраст:</td><td>
+		<input name="age" type="text" size="5" class="obligatory" />
+	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em;"><label class="error" for="age"></label>
+	</td>
+</tr>
+
+<tr>
+	<td>Пол:</td><td>
+		<input name="sex" type="radio" value="female" class="obligatory" id="csexfemale"/><label for="csexfemale">женски</label>
+        	<input name="sex" type="radio" value="male" class="obligatory" id="csexmale" /><label for="csexmale">мъжки</label>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em"><label class="error" for="sex"></label>
+	</td>
+</tr>
+
+
+<tr>
+	<td>Роден език:</td><td>
+		<input name="native_language" type="radio" value="bulgarian" class="obligatory" id="natlangbg" /><label for="natlangbg">български </label>
+        	<input name="native_language" type="radio" value="other" class="obligatory" id="natlangother"/><label for="natlangother">друг</label>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em;"><label class="error" for="native_language"></label>
+	</td>
+</tr>
+
+ 
+<tr>
+	<td>Град или село, където сте израснали:</td><td>
+		<input name="native_town" type="text" size="15" class="obligatory" />
+	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em;"><label class="error" for="native_town"></label></td>
+</tr>
+ 
+  
+<tr>
+	<td>Максимална степен на придобито образование:</td><td>    
+        	<input name="education" type="radio" value="primary" class="optional" id="edu_pr" /><label for="edu_pr">начално училищно</label><br>
+        	<input name="education" type="radio" value="basic" class="optional" id="edu_osn"/><label for="edu_osn">основно училищно</label><br>
+        	<input name="education" type="radio" value="intermediate_highschool" class="optional" id="edu_sre"/><label for="edu_sre">средно училищно</label><br>
+        	<input name="education" type="radio" value="higher_uniersity" class="optional" id="edu_uni_bach"/><label for="edu_uni">висше</label><br>
+  	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em;"><label class="error" for="education"></label>
+	</td>
+</tr>
+     
+<tr>
+	<td>Слух:</td><td>
+		<input name="hearing" type="radio" value="normal" class="obligatory" id="normal" /><label for="normal">нормален</label>
+		<input name="hearing" type="radio" value="corrected" class="obligatory" id="corrected"/><label for="corrected">нарушен</label>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em;"><label class="error" for="hearing"></label>
+	</td>
+</tr>
+
+
+<tr>
+	<td>Зрение:</td><td>
+		<input name="vision" type="radio" value="normal" class="obligatory" id="normvision" /><label for="normvision">нормално</label>
+		<input name="vision" type="radio" value="corrected" class="obligatory" id="corrvision"/><label for="corrvision">коригирано</label>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em;"><label class="error" for="vision"></label>
+	</td>
+</tr>
+
+
+<tr>
+	<td> Моята специалност (бакалавърска, магистърска или докторска) е ориентирана към:</td><td>
+	</td>
+</tr>
+
+<tr>
+	<td>&#9а. езици</td><td>
+		<input name="language_degree" type="radio" value="yes" class="optional" id="Yes2" /><label for="Yes2">да</label>
+		<input name="language_degree" type="radio" value="no" class="optional" id="No2"/><label for="No2">не</label>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em;"><label class="error" for="language_degree"></label>
+	</td>
+</tr>
+<tr>
+	<td>&#9б. психология</td><td>
+		<input name="psychology_degree" type="radio" value="yes" class="optional" id="Yes3" /><label for="Yes3">да</label>
+		<input name="psychology_degree" type="radio" value="no" class="optional" id="No3"/><label for="No3">не</label>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em;"><label class="error" for="psychology_degree"></label>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<input type="checkbox" class="obligatory" name="consent_experiment_first_time" id="consentcx1" /><label for="consentcx1">Потвърждавам, че правя експеримента за първи път.</label>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em;"><label class="error" for="consent_experiment_first_time"></label>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<input type="checkbox" class="obligatory" name="consent_process_my_data" id="consentcx2" /><label for="consentcx2">Съгласен съм данните, събрани по време на този експеримент, да бъдат обработвани с научни цели.</label>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-bottom:0.5em;"><label class="error" for="consent_experiment_first_time"></label>
+	</td>
+</tr>
+
+</table>
+</div>
+</body>    
+</html>
